@@ -305,6 +305,26 @@ python src/visualize_data.py          # Step 4: Visualize
 
 ---
 
+## Kaggle Code Notebook
+
+| Property | Value |
+|----------|-------|
+| **Notebook** | [arulmariaagnes/synthetic-heart-disease-dataset](https://www.kaggle.com/code/arulmariaagnes/synthetic-heart-disease-dataset) |
+| **Title** | Synthetic Heart Disease Dataset \| EDA & Visualization |
+| **Sections** | 25 (Overview, Load, Validate, 17 Visualizations, Dashboard) |
+| **Visualizations** | 17 PNG charts + dashboard |
+| **Outputs** | ZIP download, CSV reports |
+
+The notebook contains a complete Python workflow with:
+- Dataset loading from Kaggle input directory
+- Comprehensive validation checks
+- Exploratory data analysis across all features
+- 17 professional visualizations
+- Summary dashboard
+- Downloadable output files
+
+---
+
 ## GitHub Repository
 
 ![GitHub Portfolio](linkedin/images/09_github_preview.png)

@@ -1,0 +1,8 @@
+Check,Status,Details
+Rows,PASS,100 rows
+Columns,PASS,20 columns
+Patient IDs,PASS,P001-P100
+Missing Values,PASS,0 missing
+Duplicates,PASS,0 duplicates
+Value Ranges,PASS,All valid
+Target Values,PASS,0 and 1 only

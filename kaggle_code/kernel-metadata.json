@@ -1,0 +1,13 @@
+{
+  "id": "arulmariaagnes/synthetic-heart-disease-dataset",
+  "title": "Synthetic Heart Disease Dataset | EDA & Visualization",
+  "code_file": "synthetic-heart-disease-dataset.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "arulmariaagnes/synthetic-heart-disease-100"
+  ]
+}
