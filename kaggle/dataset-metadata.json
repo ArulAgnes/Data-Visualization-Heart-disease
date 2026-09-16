@@ -1,0 +1,139 @@
+{
+  "title": "Synthetic Heart Disease Dataset - 100 Patients",
+  "subtitle": "100 synthetic patient records for beginner ML and data visualization",
+  "description": "This dataset contains exactly 100 synthetic patient records with 20 clinical features for beginner-level machine learning and data visualization practice. The data was generated algorithmically using probabilistic risk-factor relationships. Target distribution: 46 Heart Disease (positive) / 54 No Heart Disease (negative). This is SYNTHETIC data for educational use only — NOT real patient data, NOT clinically validated, NOT for medical diagnosis. The original Kaggle BRFSS Heart Disease Health Indicators dataset was used only as a reference for realistic risk-factor patterns; no records were copied from the source.",
+  "id": "arulmariaagnes/synthetic-heart-disease-100",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "heart disease",
+    "synthetic data",
+    "machine learning",
+    "classification",
+    "healthcare",
+    "beginner",
+    "educational",
+    "clinical",
+    "prediction",
+    "risk factors",
+    "data visualization",
+    "python"
+  ],
+  "resources": [
+    {
+      "path": "synthetic_heart_disease_100.csv",
+      "description": "Synthetic heart disease dataset with 100 patient records and 20 features"
+    },
+    {
+      "path": "dataset-cover-image.png",
+      "description": "Dashboard summary visualization of the synthetic dataset"
+    }
+  ],
+  "schema": {
+    "fields": [
+      {
+        "name": "Patient_ID",
+        "type": "string",
+        "description": "Unique patient identifier (P001-P100)"
+      },
+      {
+        "name": "Age",
+        "type": "integer",
+        "description": "Patient age in years (25-80)"
+      },
+      {
+        "name": "Sex",
+        "type": "integer",
+        "description": "Biological sex (0=Female, 1=Male)"
+      },
+      {
+        "name": "Chest_Pain_Type",
+        "type": "integer",
+        "description": "Type of chest pain (0=Typical Angina, 1=Atypical Angina, 2=Non-anginal Pain, 3=Asymptomatic)"
+      },
+      {
+        "name": "Resting_BP",
+        "type": "integer",
+        "description": "Resting blood pressure in mmHg"
+      },
+      {
+        "name": "Cholesterol",
+        "type": "integer",
+        "description": "Serum cholesterol in mg/dL"
+      },
+      {
+        "name": "Fasting_Blood_Sugar",
+        "type": "integer",
+        "description": "Fasting blood sugar > 120 mg/dL (0=No, 1=Yes)"
+      },
+      {
+        "name": "Resting_ECG",
+        "type": "integer",
+        "description": "Resting ECG results (0=Normal, 1=ST-T abnormality, 2=LV hypertrophy)"
+      },
+      {
+        "name": "Max_Heart_Rate",
+        "type": "integer",
+        "description": "Maximum heart rate achieved during exercise"
+      },
+      {
+        "name": "Exercise_Induced_Angina",
+        "type": "integer",
+        "description": "Exercise-induced angina (0=No, 1=Yes)"
+      },
+      {
+        "name": "ST_Depression",
+        "type": "number",
+        "description": "ST depression induced by exercise (0.0-6.0)"
+      },
+      {
+        "name": "ST_Slope",
+        "type": "integer",
+        "description": "Slope of peak exercise ST segment (0=Downsloping, 1=Flat, 2=Upsloping)"
+      },
+      {
+        "name": "Num_Major_Vessels",
+        "type": "integer",
+        "description": "Number of major vessels colored by fluoroscopy (0-3)"
+      },
+      {
+        "name": "Thalassemia",
+        "type": "integer",
+        "description": "Thalassemia type (0=Normal, 1=Fixed Defect, 2=Reversible Defect)"
+      },
+      {
+        "name": "BMI",
+        "type": "number",
+        "description": "Body Mass Index in kg/m2 (18-40)"
+      },
+      {
+        "name": "Smoking",
+        "type": "integer",
+        "description": "Smoking status (0=No, 1=Yes)"
+      },
+      {
+        "name": "Diabetes",
+        "type": "integer",
+        "description": "Diabetes status (0=No, 1=Yes)"
+      },
+      {
+        "name": "Family_History",
+        "type": "integer",
+        "description": "Family history of heart disease (0=No, 1=Yes)"
+      },
+      {
+        "name": "Physical_Activity",
+        "type": "integer",
+        "description": "Physical activity level (0=Low, 1=Moderate, 2=High)"
+      },
+      {
+        "name": "Heart_Disease",
+        "type": "integer",
+        "description": "Heart disease presence - TARGET (0=No, 1=Yes)"
+      }
+    ]
+  }
+}
